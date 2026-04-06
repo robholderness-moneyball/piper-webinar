@@ -63,7 +63,7 @@ export function HeroSection() {
             <p className="text-base text-white/60 leading-relaxed">
               Vintory 1.0 is dead. See the next generation of the
               industry&apos;s leading homeowner acquisition system — go from
-              discovering target properties to launching marketing in hours,
+              discovering target properties to launching marketing in minutes,
               not weeks.
             </p>
 
