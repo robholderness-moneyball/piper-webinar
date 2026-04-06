@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { PiperFeatures } from "@/components/sections/PiperFeatures";
 import { SocialProof } from "@/components/sections/SocialProof";
 import { AiMarketingTease } from "@/components/sections/AiMarketingTease";
+import { WhyPiper } from "@/components/sections/WhyPiper";
 import { FinalCta } from "@/components/sections/FinalCta";
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function LandingPage() {
       <PiperFeatures />
       <SocialProof />
       <AiMarketingTease />
+      <WhyPiper />
       <FinalCta />
     </>
   );

@@ -1,7 +1,7 @@
 const stats = [
   { value: "1,000+", label: "Property Management Companies" },
-  { value: "1.6M+", label: "Postcards Mailed" },
-  { value: "9.1M+", label: "Emails Sent" },
+  { value: "1.6M+", label: "Postcards Mailed in 2025" },
+  { value: "9.1M+", label: "Emails Sent in 2025" },
 ];
 
 export function SocialProof() {

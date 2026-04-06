@@ -50,8 +50,27 @@ export function AiMarketingTease() {
             AI-powered marketing that actually knows your brand.
           </h2>
           <p className="mt-4 text-lg text-white/60">
-            A $50K agency report — in minutes. Get a sneak peek at the webinar.
+            Generate full direct mail and cold email campaigns in minutes. Stay until the end of the webinar to get a sneak peek (and get on the wait list).
           </p>
+        </div>
+
+        {/* Video demo */}
+        <div className="mb-12 lg:mb-16 max-w-4xl mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-white/10">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full"
+              poster="/videos/postcard-transformation.mp4#t=0.1"
+            >
+              <source
+                src="/videos/postcard-transformation.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
         </div>
 
         {/* Capability grid */}

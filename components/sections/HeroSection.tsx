@@ -4,12 +4,12 @@ import { Calendar, CheckCircle } from "lucide-react";
 import { HubSpotForm } from "@/components/forms/HubSpotForm";
 
 const bullets = [
-  "How to quickly use Piper to find the exact properties you want to target.",
-  "Why our premium STR-verified data saves you thousands of dollars in wasted marketing spend.",
-  "Why we killed data subscriptions and restrictions on downloading data (pay for what you need and use the data however you like).",
-  "New features like searching by manager or RBO, by number of reviews and by average review rating.",
-  "New data included in exports, like links to Airbnb and VRBO listings (where applicable).",
-  "An exclusive sneak peek at our soon-to-be-launched AI marketing platform that creates your campaigns in minutes.",
+  "Use Piper to find the exact properties you want to target — in real time.",
+  "Premium STR-verified data that saves thousands in wasted marketing spend.",
+  "No subscriptions, no download restrictions — pay for what you need.",
+  "Search by manager, RBO, review count, and average rating.",
+  "Exports include Airbnb and VRBO listing links (where applicable).",
+  "Sneak peek at our AI marketing platform that creates campaigns in minutes.",
 ];
 
 export function HeroSection() {
@@ -61,12 +61,10 @@ export function HeroSection() {
             </p>
 
             <p className="text-base text-white/60 leading-relaxed">
-              Vintory 1.0 is dead. Come see the next generation of the
-              industry&apos;s leading homeowner acquisition system. Easy-to-use
-              software tools custom designed for vacation rental managers that
-              work in real-time, so you can go from discovering target properties
-              to launching marketing to homeowners in a few hours, instead of
-              weeks.
+              Vintory 1.0 is dead. See the next generation of the
+              industry&apos;s leading homeowner acquisition system — go from
+              discovering target properties to launching marketing in hours,
+              not weeks.
             </p>
 
             <div>
@@ -82,12 +80,25 @@ export function HeroSection() {
                     </span>
                   </li>
                 ))}
+                <li className="flex gap-3">
+                  <CheckCircle className="h-5 w-5 text-[#2DACDC] shrink-0 mt-0.5" />
+                  <span className="text-sm text-white/70 leading-relaxed">
+                    Find out why we{" "}
+                    <a
+                      href="#why-piper"
+                      className="text-[#2DACDC] underline underline-offset-2 hover:text-[#FCC749] transition-colors"
+                    >
+                      named it Piper
+                    </a>
+                    .
+                  </span>
+                </li>
               </ul>
             </div>
           </div>
 
           {/* RIGHT column — form card */}
-          <div className="lg:sticky lg:top-8">
+          <div className="lg:sticky lg:top-8 space-y-4">
             <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-xl">
               <h3 className="text-xl font-bold text-[#041E42] text-center mb-6">
                 Reserve Your Spot
@@ -97,14 +108,12 @@ export function HeroSection() {
                 redirectUrl="/thank-you"
               />
             </div>
+            <p className="text-center text-sm">
+              <span className="text-[#FCC749] font-semibold">Can&apos;t make the webinar?</span>{" "}
+              <span className="text-white/70">Sign up anyway to get the recording and the bonuses!</span>
+            </p>
           </div>
         </div>
-
-        {/* Below columns note */}
-        <p className="text-center text-white/40 text-sm mt-10 max-w-xl mx-auto">
-          Can&apos;t make the webinar? Sign up anyway to get the recording and
-          the bonuses!
-        </p>
       </div>
     </section>
   );

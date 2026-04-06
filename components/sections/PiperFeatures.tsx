@@ -64,6 +64,22 @@ export function PiperFeatures() {
           </p>
         </div>
 
+        {/* Video demo */}
+        <div className="mb-12 lg:mb-16 max-w-4xl mx-auto">
+          <div className="rounded-2xl overflow-hidden shadow-xl border border-[#E5E7EB]">
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full"
+              poster="/videos/piper-demo.mp4#t=0.1"
+            >
+              <source src="/videos/piper-demo.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+
         {/* Feature grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => (
